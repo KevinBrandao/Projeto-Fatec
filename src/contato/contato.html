@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lemon 🍋</title>
+    <link rel="stylesheet" href="../styles/contato.css">
+    <link rel="icon" href="../images/logoLemon.ico">
+</head>
+
+<body>
+    <header class="header">
+        <nav tabindex="1" class="menu">
+            <ul>
+                <li class="menu_item menu_ativo">
+                    <a href="./contato.html">
+                        contato
+                    </a>
+                </li>
+                <li class="menu_item"><a href="../produtos/index.html">
+                        produtos
+                    </a></li>
+                <li>
+                    <a href="../index.html">
+                        <div class="imagem" alt=""></div>
+                    </a>
+                </li>
+                <li class="menu_item">
+                    <a href="#">
+                        novidades
+                    </a>
+                </li>
+                <li class="menu_item">
+
+                    <a href="../sobre/sobre.html">
+                        sobre
+                    </a>
+                </li>
+            </ul>
+            <span class="separator"></span>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h3 class="text_center separator_form">Fale conosco</h3>
+
+        <!-- aqui adicionar link "clique aqui"
+        <span>Para troca e devolução <a href="#">clique aqui</a></span><br><br> -->
+
+        <p class="text_right text_muted">Campos marcados com <span>
+                (<sup class="warning__sup">*</sup> )</span> são obrigatórios. <br><br>
+        </p>
+
+        <main>
+            <form>
+                <div class="contato_body">
+                    <div class="form_group field">
+                        <input type="input" class="form_field" placeholder="Name" name="name" id='name' required />
+                        <label for="name" class="form_label"> Nome *</label>
+                    </div>
+
+                    <div class="form_group field">
+                        <input type="input" class="form_field" placeholder="Name" name="sobrenome" id='sobrenome'
+                            required />
+                        <label for="sobrenome" class="form_label">Sobrenome *</label>
+                    </div>
+
+
+                    <div class="form_group field">
+                        <input type="input" class="form_field" placeholder="Email" name="email" id="email" required />
+                        <label for="email" class="form_label">Email *</label>
+                    </div>
+
+
+
+                    <div class="form_group field">
+                        <input type="input" class="form_field" placeholder="Telefone" name="telefone" id='telefone'
+                            required />
+                        <label for="telefone" class="form_label">Telefone *</label>
+                    </div>
+
+                    <div class="form_group field">
+                        <textarea class="form_field" cols="70" rows="3" required id="mensagem"></textarea>
+                        <label class="form_label" for="mensagem">Mensagem *</label>
+                    </div>
+                </div>
+
+
+
+                <div class="contato_options">
+                    <h3 class="text_center separator_form">Como prefere nosso o contato?</h3>
+
+
+                    <div class="options">
+
+                        <label class="container_radio" for="radio-email"> <input class="checkbox" type="radio"
+                                name="contato" value="email" id="radio-email"> <span class="checkmark radio"></span>
+                            Email</label>
+
+                        <label class="container_radio" for="radio-whatsapp"> <input class="checkbox" type="radio"
+                                name="contato" value="whatsapp" id="radio-whatsapp"> <span
+                                class="checkmark radio"></span>
+                            WhatsApp</label>
+
+                        <label class="container_radio" for="radio-telefone"> <input class="checkbox" type="radio"
+                                name="contato" value="telefone" id="radio-telefone"> <span
+                                class="checkmark radio"></span>
+                            Telefone</label>
+
+                    </div>
+                </div>
+
+                <div class="contato_footer">
+                    <label class="container_radio "><input class="checkbox" type="checkbox" name=""><span
+                            class="checkmark"></span>Gostaria de receber nossas novidades por email?</label>
+                   
+                    <input class="button" type="submit" value="Enviar formulário">
+                </div>
+                <div class="redes_sociais">
+                    <h3 class="text_center">Nossas Redes</h3>
+                    <ul>
+                        <li><a target="_blank" href="https://www.facebook.com/calcadoslemon/" class="fa fa-facebook"></a></li>
+                        <li><a target="_blank" href="https://www.instagram.com/_lemonshoes/?hl=pt-br" class="fa fa-instagram"></a></li>
+                        <li><a  target="_blank" href="https://api.whatsapp.com/send?phone=5516988656474" class="fa fa-whatsapp"></a></li>
+                    </ul>
+                </div>
+            </form>
+        </main>
+    </div>
+
+</body>
+
+</html>
